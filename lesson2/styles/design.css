@@ -7,7 +7,28 @@
     h2 {
         font-size: 2rem;  
     }
+    header{
+        line-height: 3;
+        padding: 10px;
+        
+    }
     
+    header, footer{
+        background-color: rgb(98, 230, 219);
+        box-shadow: 10px 20px 3px  gray;
+        margin: 20px;
+    }
+    footer{
+        padding: 1rem;
+        text-align: center;
+    }
+    footer, header {
+        display: block;
+        border-radius: 10px;
+    }
+    body {
+        background-color:rgb(227, 221, 221);
+    } 
  }
 
 
@@ -66,7 +87,7 @@ main section {
 
 /* phone or baseline views **************************/
 main {
-	max-width: 1200px;
+	max-width: 767px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -125,9 +146,9 @@ main section:nth-child(2) {
 }
 
 /* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 90em) {
 	main {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr ;
 	}
 	
 	/* This is unncessary !!! The flow is set and the template is set already */
@@ -146,29 +167,6 @@ main section:nth-child(2) {
 }
 
 
-
-header{
-    line-height: 3;
-    padding: 10px;
-    
-}
-
-header, footer{
-    background-color: rgb(98, 230, 219);
-    box-shadow: 10px 20px 3px  gray;
-    margin: 20px;
-}
-footer{
-    padding: 1rem;
-    text-align: center;
-}
-footer, header {
-    display: block;
-    border-radius: 10px;
-}
-body {
-    background-color:rgb(227, 221, 221);
-}
 
 
 
