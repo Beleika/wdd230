@@ -88,7 +88,7 @@ main section {
 /* phone or baseline views **************************/
 main {
 
-	max-width: 767px;
+	max-width: 600px;
 	margin: 0 auto;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -116,9 +116,6 @@ main section h2 {
 main section:nth-child(2) {
 	display: none;
 	margin: 0.5rem;
-}
-main section:nth-child(3) {
-    grid-column: span 3;
 }
 
 .colimage {
