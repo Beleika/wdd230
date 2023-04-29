@@ -7,6 +7,8 @@
     h2 {
         font-size: 2rem;  
     }
+
+}
     header{
         line-height: 3;
         padding: 10px;
@@ -30,7 +32,7 @@
         background-color:rgb(227, 221, 221);
     } 
  
-}
+
 
 * {
     margin:0;
