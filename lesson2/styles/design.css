@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+@media only screen and (min-width: 32.5em) {
+    h1 {
+     font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;  
+    }
+    
+ }
+
+
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1 {
+    
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+   
+    
+    
+   
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+
+}
+h1,h2 {
+    text-align: center;
+}
+
+h3, p {
+    margin: 35px;
+}
+main p {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 1.5rem;
+
+}
+h3 {
+    margin: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #b11d1d;
+    color: white;
+    text-align: center;
+    box-shadow: 10px 20px 3px  gray;
+}
+
+li {
+    font-size: 15px;
+}
+main section {
+    border-radius: 15px;
+    
+}
+
+/* phone or baseline views **************************/
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+    
+
+}
+
+
+
+main section {
+	margin: 0.5rem;
+	border: 1px solid #bbbbbb99;
+	padding: 0 1rem;
+	background-color:  rgb(227, 221, 221);
+
+}
+
+main section h2 {
+	color: #536878;
+}
+
+
+
+main section:nth-child(2) {
+	display: none;
+	margin: 0.5rem;
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+	/* This is unncessary !!! The flow is set and the template is set already */
+	main section:nth-child(1) {
+	  grid-column: 1/2;
+  }
+	main section:nth-child(2) {
+	  grid-column: 2/3;
+		grid-row: 1/2;
+  }
+	/*************************************/
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+
+
+header{
+    line-height: 3;
+    padding: 10px;
+    
+}
+
+header, footer{
+    background-color: rgb(98, 230, 219);
+    box-shadow: 10px 20px 3px  gray;
+    margin: 20px;
+}
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+footer, header {
+    display: block;
+    border-radius: 10px;
+}
+body {
+    background-color:rgb(227, 221, 221);
+}
+
+
+
+
+
+
+
+
