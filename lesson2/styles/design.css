@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
 
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 20em) {
     h1 {
      font-size: 2.5rem;
     }
@@ -87,6 +87,7 @@ main section {
 
 /* phone or baseline views **************************/
 main {
+
 	max-width: 767px;
 	margin: 0 auto;
 	display: grid;
@@ -113,13 +114,16 @@ main section h2 {
 
 
 main section:nth-child(2) {
-	display: none;
+	display: block;
 	margin: 0.5rem;
+}
+main section:nth-child(3) {
+    grid-column: span 3;
 }
 
 .colimage {
-	box-shadow: 0 0 30px #333;
-}
+	box-shadow: 0 0 30px #333; }
+
 
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
