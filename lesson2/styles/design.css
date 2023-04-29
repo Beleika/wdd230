@@ -114,7 +114,7 @@ main section h2 {
 
 
 main section:nth-child(2) {
-	display: block;
+	display: none;
 	margin: 0.5rem;
 }
 main section:nth-child(3) {
