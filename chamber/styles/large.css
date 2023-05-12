@@ -11,7 +11,7 @@ body {
 
 
 	h1 {
-        font-size: 2.5rem
+        font-size: 3.5rem
     }
     
     #hamButton {
@@ -50,14 +50,17 @@ h1{
     float: right;
 }
 nav {
-	margin: 20px;
+	margin: 15px;
 	display: flex;
-	padding: 10px;
+	padding: 15px;
 	align-items: center;
 	justify-content: center;
 	text-decoration: none;
-    font-size: 15px;
+    font-size: 10px;
 	text-align: center;
+	position: absolute;
+	top: 20px;
+	left: 450px;
 	
 	
 	
@@ -66,7 +69,7 @@ nav {
 nav a {
     
     text-decoration: none;
-	padding: 10px;
+	padding: 5px;
     text-align: center;
     font-size: 2rem;
 	color: #061b6c;
@@ -119,9 +122,9 @@ nav a:hover {
 	margin: 0px;
 	display: flex;
 	position: absolute;
-	top: 60px;
+	top: 59px;
 	align-items: end;
-	left: 1100px;
+	left: 1200px;
 }
 
 .social svg {
@@ -140,8 +143,8 @@ aside {
 	text-align: center;
 	position: absolute;	
 	font-size: 24px;
-	top: 100px;
-    width: 98%;
+	top: 120px;
+    width: 97%;
     color: white;
     background-color: rgb(5, 119, 81);;
     opacity: 0.6;
