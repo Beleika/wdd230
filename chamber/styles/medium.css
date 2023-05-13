@@ -17,6 +17,35 @@
         font-size: 2rem
     }
 
+    h1{
+        color: #061b6c; 
+    }
+    
+    .just {
+        display: flex;
+        justify-content:space-between;
+    
+    }
+    footer p{
+        font-size: 10px;
+    }
+    
+    .myfooter1{
+        display: flex;
+        align-items: end;
+        justify-content: space-around;	
+        
+    }
+    .myfooter2{
+        font-size: 20px;
+        text-align: center;
+        border-top: 2px solid rgb(12, 18, 19);
+        padding: 15px;
+        margin: 15px;
+        
+    }
+    
+
     nav button {
         margin: 2rem 2vw;
         background: transparent;
@@ -44,5 +73,49 @@
     nav ul li a:hover {
         background-color: antiquewhite;
     }
+
+    h1 {
+        font-size: 2.5rem
+    }
+    
+    #hamButton {
+        display:block; /* hide hamburger button */
+    } 
+    
+    .navigation {
+        flex-direction: row;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    .headings h1 {
+        font-size: 2.3rem;
+        margin: 0;
+    }
+
+    .m {
+        letter-spacing: .1pt;
+        font-size: 1.3rem;
+    }
+
+
+
+
+ .navigation {
+        flex-direction: row;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
 
 }

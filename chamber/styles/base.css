@@ -18,6 +18,46 @@
         font-size: 2rem
     }
 
+    .home-grid {
+        display: block;
+        grid-template-columns: repeat(1fr, 3fr, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+      }
+
+      h1 {
+        font-size: 2rem
+    }
+
+    h1{
+        color: #061b6c; 
+    }
+    
+    .just {
+        display: flex;
+        justify-content:space-between;
+    
+    }
+    footer p{
+        font-size: 10px;
+    }
+    
+    .myfooter1{
+        display: block;
+        align-items: end;
+        justify-content: space-around;	
+        
+    }
+    .myfooter2{
+        font-size: 20px;
+        text-align: center;
+        border-top: 2px solid rgb(12, 18, 19);
+        padding: 15px;
+        margin: 15px;
+        
+    }
+    
+
     nav button {
         margin: 2rem 2vw;
         background: transparent;
