@@ -103,7 +103,16 @@
         flex: 1 1 auto;
     }
 
-   
+    .social {
+        justify-content: space-between;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        position: absolute;
+        top: 59px;
+        align-items: end;
+        
+    }
 
     .headings h1 {
         font-size: 1rem;
