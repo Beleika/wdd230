@@ -92,8 +92,7 @@
         background-color: antiquewhite;
     }
     #hamButton {
-        display:block; /* hide hamburger button */
-    } 
+        display:block;}
     
     .navigation {
         flex-direction: row;
@@ -104,9 +103,7 @@
         flex: 1 1 auto;
     }
 
-    header img {
-        width: 100%;
-    }
+   
 
     .headings h1 {
         font-size: 1rem;
