@@ -1,0 +1,38 @@
+
+body{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4em;
+  font-size: 18px;
+  text-align: center;
+  background-color: #e2dddc;
+}
+  
+
+
+li {
+    margin-bottom: 0px;
+  }
+
+  li button {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #2065aa;
+    background-color: rgb(220, 163, 89);
+  }
+  section{
+    background-color:  rgb(145, 88, 14);
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    width: 400px;
+   
+  }
+  img {
+    width: 40px;
+
+  }
+  li button:hover{
+    background-color: rgb(5, 89, 43);
+    color: aliceblue;
+  }
