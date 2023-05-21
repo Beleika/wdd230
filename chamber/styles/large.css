@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+
 }
 body {
     font-family: 'Tangerine', serif;
@@ -31,9 +32,12 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	
 }
-#hamButton {
-	display:none; /* hide hamburger button */
-} 
+main{
+	text-align: center;
+	
+    
+}
+
 
 h1{
 	color: #061b6c; 
@@ -162,40 +166,40 @@ aside {
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
-  .event {
+.event {
     grid-column: 1;
     grid-row: 1;
     margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid #d84848;
 	padding: 0.75rem 1rem;
-	background-color: #eee;
-  }
+	background-color: #d84848;
+}
   
-  .weather {
+.weather {
     grid-column: 1 ;
     grid-row: 2;
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
-  }
-  .join {
+}
+.join {
     grid-column: 1;
     grid-row: 3;
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
-  }
-  .hero {
+}
+.hero {
     grid-column: 2;
     grid-row: 1/3;
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
-  }
-  .new {
+}
+.new {
     grid-column: 2;
     grid-row: 3;
     margin: 0.5rem;
@@ -204,37 +208,37 @@ aside {
 	background-color: #eee;
 
   
-  }
-  .light {
+}
+.light {
     grid-column: 3;
     grid-row: 1/4;
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
-  }
-  .light1{
+}
+.light1{
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee
 
-  }
-  .light2 {
+}
+.light2 {
    
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
   }
-  .light3 {
+.light3 {
    
     margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0.75rem 1rem;
 	background-color: #eee;
   }
- footer {
+footer {
 	width: 100%;
 	height: 220px;
 	background-color: #d6ece7;
@@ -267,6 +271,54 @@ footer p{
 	
 }
 
+/* Week05*/
+#hero-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.book{
+	position: absolute;
+	background-color: antiquewhite;
+	top: 650px;
+	float: right;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 45px;
+
+
+}
+.book:hover{
+	background-color:  rgb(5, 119, 81);
+	color: #eee;
+	
+	
+}
+.hero h2 {
+	position: absolute;
+	background-color: antiquewhite;
+	text-align: center;
+	font-size: 40px;
+}
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+.joinus{
+	background-color: rgb(238, 166, 73);
+	margin: 15px;
+	padding: 15px;
+	margin-top: 15px;
+	padding-top: 15px;
+	border-radius: 15px;
+	text-align: center;
+	width: 100%;
+	font-size: 40px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+	
+	
+}
 
 
 
