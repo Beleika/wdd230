@@ -1,0 +1,117 @@
+
+body {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width:  1024px;
+    justify-content: center;
+    padding: 4em;
+    background-color: #e2dddc;
+      
+}
+
+
+h1 {
+    margin: 0;
+    font-size: 1.2rem;
+
+}
+h2 {
+    background-color: aqua;
+    margin: 0;
+    font-size: 1rem;
+    padding-bottom: 1.5rem;
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: palevioletred;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:  aqua;
+  }
+  nav{
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+header{
+    background-color: pink;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: pink;
+    text-align: center;
+    padding: 0;
+    padding: 1rem 1rem;
+    margin-top: 1.5rem;
+    width: 100%;
+}  
+
+/*Design */
+
+    
+/* Index */
+.logot{
+    margin-top: 1rem;
+    grid-column: 1;
+    grid-row: 1;
+}
+.logo{
+    grid-column: 1;
+    grid-row: 2;
+}
+.logo img {
+    margin-top: 1.5rem;
+    max-width: 50%;
+    max-height: 50%;
+}
+header {
+    
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+/*Target */
+.audience{
+    grid-column: 1;
+    grid-row: 2;
+    margin-bottom: 1.5rem;
+}
+.people{
+    grid-column: 1;
+    grid-row: 6;
+}
+.senarios{
+    grid-column: 1;
+    grid-row: 4;
+}
+p {
+    text-align: center;
+}
