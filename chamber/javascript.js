@@ -67,3 +67,12 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
 
+function toggleMenu(){ 
+    document.getElementById("navigation").classList.toggle("open"); 
+    document.getElementById("hamburgerButton").classList.toggle("open");
+} 
+const X = document.getElementById("hamburgerButton")
+X.onclick = toggleMenu;
+
+
+
