@@ -1,6 +1,6 @@
-@media only screen and (min-width:80) {
-    *{
-        font-size: 1.13rem;
+@media only screen and (min-width:80em) {
+    body{
+        font-size: 1rem;
     }
     
 }
