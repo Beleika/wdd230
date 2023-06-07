@@ -1,157 +1,13 @@
-
-@media (min-width: 60em) {
-	/*header{
-		display: flex;
-		
-	}*/
-	header .social a {
-		margin: auto;
-	}
-	/*
-	header .social a {
-		margin: 1rem;
-		padding: 1rem;
-		justify-content:space-around;
-	}*/
-	header .social a {
-		justify-content: flex-start;
-	}
-	header img {
+@media screen and (min-width: 64rem) {
+    body {
+        font-size: 1.25rem;
+    }
+    header img {
 		width: 100%;
 	}
-	
-	#hamburgerButton {
-		display: none; /* hide hamburger button */
-	} 
-	#navigation {
-		margin-left: 2vw;
-	}
-	nav ul#navigation {
-		display: flex;
-		justify-content: flex-start;
-	}
-
-	#navigation li a {
-		border:none;
-		justify-content: center;
-	
-	}
-	/*
-	.menu {
-		display: flex;
-		padding: 1rem;
-		margin: 1rem;
-	 }*/
-	.menu {
-		grid-column: 2/3;
-		grid-row: 1/2;
-	}
-
-	/*Main*/
-	main {
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-	.hero {
-		grid-column: 2/4;
-		grid-row: 1/3;
-	}
-	.event {
-		grid-column: 1/2;
-		grid-row: 1/2;
-	}
-	
-	.weather {
-		grid-column: 1/2;
-		grid-row: 2/3;
-	}
-	.weather-img {
-		float: right;
-	}
-
-	.news {
-		grid-column: 2/4;
-		grid-row: 3/4;
-	}
-	.join {
-		grid-column: 1/2;
-		grid-row: 3/4;
-	}
-	aside {
-		grid-column: 4/5;
-		grid-row: 1/4;
-		display: flex;
-		flex-direction: column;
-	}
-	#light3 {
-		display: block;
-	}
-	.footerlogo img{
-		width: 100px;
-	    height: auto;
-	}
-}
-
-	  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Larger viewports */
-/*
-	header img {
-		width: 100%;
-	}
+    p {
+        font-size: 18px;
+    }
 
 	.headings h1 {
 		font-size: 2.3rem;
@@ -162,213 +18,246 @@
 		letter-spacing: .1pt;
 		font-size: 1.3rem;
 	}
-   nav a {
-			font-size: 1.3rem;
-		}
-	
-}
-#hamButton{
-	display: none;
-} */
+    .social {
+        margin-right: 1.5rem;
+    }
+    
+    .social a {
+        width: 42px;
+        height: auto;
+    }
+    
+	#hamburgerButton {
+		display: none; /* hide hamburger button */
+	} 
+	#navigation {
+		margin-left: 2vw;
+        list-style-type: none;
+        
+        
 
+	}
+	nav ul#navigation {
+		display: flex;
+		justify-content: space-between;
 
+        
 
+	}
 
-
-
-
-
-
-/*
-{
-	body {
-        font-size: 20px;
-		padding: auto;
-		margin: auto;
-		display: block;
+	#navigation li a {
+		border:none;
+		justify-content: center;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px;
+        color: white;
+       
 	
 	}
-	header {
-        width: 100%;
-        height: 200px;
-        background-color: #d6ece7;
-        padding: 5px 0;
-        display: block;
-        margin: 0 auto;
-        text-decoration: none;
-        color: black;
-        font-size: 38px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        
+    
+
+
+
+
+
+
+
+    
+    /* GRID HOME MAIN */
+    main {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-	nav button{
+    main{
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    /* HERO */
+    .home-hero {
+        grid-column: 2/4;
+        grid-row: 1/3;
+    }
+  
+    /* EVENT */
+    .home-event {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+    /* WEATHER */
+    .home-weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 1rem 1rem;
+    }
+    /* NEWS */
+    .home-news-release {
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+
+    
+    /* JOIN */
+    .home-join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .join {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .join-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .home-join p {
+        margin-top: 3rem;
+    }
+
+    
+  
+  
+    .home-hero-img-smallmedium {
         display: none;
     }
-
-	.logo{
-		
-		width: 100px;
-
-	}
-	.logo img {
-		width: 100%;
-		display: flex;
-	}
-	h1{
-		font-size: 2rem;
-	    color: #061b6c
-		
-	}
-	    
-    .just {
-        display: flex;
-        justify-content:space-between;
-    
+    .home-hero-img-large {
+        display: block;
     }
 
-	#todaysDate{
+    .home-hero-h2 {
+        font-size: 1.8rem;
+    }
 
-		margin-top: 0;
-	}
-	
-
-
-
-	
-   .home-grid {
-
-    display: grid;
-    grid-template-columns:(1fr, 3fr, 1fr);
-  
-   }
-   .event {
-    grid-column: 1;
-    grid-row: 1;
-    direction: flex;
-	border: 1px solid #d84848;
-	padding: 0.75rem 1rem;
-	flex-direction: column;
-	align-items: center;
-   }
-  
-.weather {
-    grid-column: 1 ;
-    grid-row: 2;
-    margin: 1rem 1rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee;
-}
-.join {
-    grid-column: 1;
-    grid-row: 3;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee;
-}
-.joinus {
-	
-	background-color: rgb(238, 166, 73);
-	padding-left: 1rem;
-	padding-right: 1rem ;
-	text-align: center;
-	width: 100%;
-	font-size: 40px;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	
-}
-.joinus p {
-	margin-top: 3rem;
-}
-
-.hero {
-    grid-column: 2 /4;
-    grid-row: 1/3;
-	border: 1px solid #bbb;
-	background-color: #eee;
-}
-.hero-img{
-	display: block;
-}
-
-.new {
-    grid-column: 2 /4;
-    grid-row: 3;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #f41414;
-
-  
-}
-.light {
-    grid-column: 4;
-    grid-row: 1/4;
-	display: grid;
-	grid-template-columns: 1fr;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee;
-}
-.light1{
-	grid-column: 1;
-	grid-row: 1;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee
-
-}
-.light2 {
-    grid-column: 1;
-	grid-row: 2;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #eee;
-  }
-.light3 {
-    grid-column: 1;
-	grid-row: 3;
-    margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem 1rem;
-	background-color: #e71313;
-  }
-  .myfooter1{
-	justify-content: right;
-	width: 50%;
-	font-size: 1rem;
-  }
-  .footerlogo {
-	width: 100%;
-  }
-  .myfooter2 {
-	display: flex;
-	margin: 0 auto;
-	justify-content: center;
-	align-items: center;
-  }
-
-  .myfooter3 {
-	display: inline-block;
-  }
-
-
-*
-
-	
-
-
-
-
-
-
-
+    /* SPOTLIGHT */
+    .home-spotlight {
+        grid-column: 4/5;
+        grid-row: 1/4;
+        display: flex;
+        flex-direction: column;
+    }
  
+    
+    .home-spotlight > section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #spotlight1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #spotlight2 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #spotlight3 {
+        grid-column: 1;
+        grid-row: 3;
+        display: block;
+
+       
+    }
+    .home-spotlight-section2 {font-size: .75rem;}
+    .hide-join, .hide-spotlight {
+        display: block;
+    }
+    .join-link{
+        background-color:  rgb(115, 81, 81) ;
+        color: white;
+    }
+
+    /* FOOTER */
+    footer{
+        display: block;
+        padding: 1px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(82, 9, 9);
+        gap: 5px;
+        border-radius: 15px 15px 0 0;
+
+        
+            
+    }
+    .footer1{
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+   
+   
+    
+    .footer-section1 {
+        font-size: 1rem;
+    }
+    .home-footer-logo{
+        display: flex;
+       text-align: center;
+       flex-direction: row;
+       justify-content: center;
+       
+    
+    }
+   
+    .footer-section3 {
+        font-size: .9rem;
+        display: inline;
+    }
+   
+  
+
+    /* DISCOVER PAGE */
+    .infoDiscover {
+       
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+ 
+    
+    .shadow:hover {box-shadow: 0 0 50px #333;}
+        
+    .titlediscover h2 {
+        font-size: 2rem;
+        color: white;
+    }
+
+  
+    figcaption {
+        font-size: 20px;
+        color: white;}
+
+    
+
+    .titlediscover h3 {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+  
+    figcaption {
+        font-size: 20px;
+        color: white;}
+
+      
+      
+    .discover p{
+    font-size: 25px;
+    color: white;
+    }
+
+
+
+}
+
+     
