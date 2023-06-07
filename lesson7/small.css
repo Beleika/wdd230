@@ -1,0 +1,49 @@
+body{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #EEA47F;
+}
+
+
+h1, h2 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    
+}
+header{
+    background-color: #00539C;
+ 
+}
+main {
+    
+    padding: 0 1rem;
+    margin: 15px auto;
+}
+
+
+.loading {
+    margin: 0 auto;
+    max-width: 18.75rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+picture {
+    padding: 10px;
+  
+    
+    
+}
+
+
+
+footer{
+    text-align: center;
+    color: wheat;
+    background-color:  #00539C;
+}
