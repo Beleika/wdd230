@@ -1,4 +1,12 @@
 
+
+:root {
+	--back:  rgb(62, 4, 4);
+    --back2: white;
+    --boder: rgb(62, 4, 4);
+	--back3: rgb(115, 81, 81);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
 body{
     max-width: 960px;
     margin: 0 auto;
@@ -14,15 +22,15 @@ main {
 }
 main div {width: fit-content;}
 h1 {
-    background-color: rgb(62, 4, 4);
+    background-color: var(--back);
     padding: 1.5rem 1rem 1.5rem 1rem;
-    color: white;
+    color: var(--back2);
     text-align: center;
     font-size: 1.2rem;
     margin-bottom: 0;
 }
 table, th, td {
-    border: 1px solid rgb(62, 4, 4);
+    border: 1px solid var(--boder);
 }
 th {padding: .5rem;}
 table {
@@ -37,13 +45,13 @@ caption {
     font-size: .9rem    ;
 }
 tbody tr:nth-child(2) {
-    background-color: lightgray;
+    background-color: var(--zebra);
 }
 thead tr:nth-child(1) {
-    background-color:  rgb(115, 81, 81);
-    color: white;
+    background-color:  var(--back3);
+    color: var(--back2);
 }
 tr td:nth-child(1) {
     padding: 1rem;
 }
-.blank {background-color: rgb(62, 4, 4)}
+.blank {background-color: var(--back)}
