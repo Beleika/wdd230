@@ -1,0 +1,49 @@
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em 4em 4em 4em;
+    font-size: 18px;
+    text-align: center;
+      }
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+main div {width: fit-content;}
+h1 {
+    background-color: rgb(62, 4, 4);
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+table, th, td {
+    border: 1px solid rgb(62, 4, 4);
+}
+th {padding: .5rem;}
+table {
+    margin: 0;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+caption {
+    caption-side: bottom;
+    margin: .2rem;
+    font-size: .9rem    ;
+}
+tbody tr:nth-child(2) {
+    background-color: lightgray;
+}
+thead tr:nth-child(1) {
+    background-color:  rgb(115, 81, 81);
+    color: white;
+}
+tr td:nth-child(1) {
+    padding: 1rem;
+}
+.blank {background-color: rgb(62, 4, 4)}
