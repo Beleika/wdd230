@@ -68,75 +68,27 @@
   
    
     
-    <main>
-
-        <div class="home-hero">
-
-        <form method="get" action="thankyou.html" >
-            <fieldset>
-                <legend> Please give your information</legend> 
-            <div><label class="top">First Name*  </label> 
-                <input type ="text" name="fname"  required></div>
-            <div><label class="top">Last Name*  </label>
-                <input type ="text" name="lname"  required> </div>
-            <div><label class="top">Email* </label>
-                <input type ="email" name="email" placeholder="example@gmail.com"  required>  </div>
-            <div><label class="top">Phone* </label> 
-                <input type ="tel" name="phone"  required> </div>
-
-
-            </fieldset>
-              <fieldset>
-                <legend> Business information</legend>
-
-                <div> <label class="top">Business Name* </label> 
-                    <input type ="text" name="businessname"  required> </div>
-
-               <div> <label class="top" >Business Position Title </label>
-                 <input name="business"  type="text" 
-                 id="business" title="Please enter a valid business position title (minimum 7 characters with only letters, hyphens, and spaces).">
+    <main class="directory">
+       
+            <div class="menudirectory">
+                <button id="gridDirectory">⏹️Grid</button>
+                <button id="listDirectory">📄List</button>
+            </div>
+            <hr>
+            <article class="gridDirectory">
                 
-                
-                
-                </div>
-
-                <div><label class="top">Business Name*  </label>
-                <input type ="text" name="businessname"  required> </div>
-                <div><label class="top">Membership</label>
-                    <select name="subject">
-                    <option value="One">Select your membership level</option>
-                    <option value="NP "> NP Membership</option>
-                    <option value="Bronze"> Bronze Membership</option>
-                    <option value="Silver"> Silver Membership</option>
-                    <option value="Gold"> Gold Membership</option>
-                    </select>
-                </div>
-
-                   <div><label class="top"> Business description:</label>
-                <textarea id="feedback" name="feedback " ></textarea>
-            </div> 
-                  
-            </fieldset>
-            <input type="submit"  value="Join Us"   class="submitBtn">
-
-
-
-
-
-
+              
+            </article>
         
-
-
-        </form>
-    </div>
       
         
-       
+        
+     
   
     </main>
     <footer>
         <div class="footer1">
-        <div class="footer-section1">
+        <div class="footer-part1">
             <div class="home-footer-logo">
                 <picture>
                     <img src= "images/logo2.png" alt="Rose Chamber of Commerce">
@@ -147,14 +99,14 @@
                 </section>
             
             </div>
-            <div class="address-section">
+            <div class="address-part">
                
 
             <p>Street Livertad A # 5, <br>
                 Dominican Republic</p>
             </div>
         </div>
-        <div class="footer-section2">
+        <div class="footer-part2">
             <p class="footer-email">rberline30@gmail.com </p>
             <p class="footer-phone-number">+(829) 389 7470</p>
             <a class="footer-location"  href="https://www.google.com/maps/place/Farmacia+Medicar+GBC+-+San+Francisco+de+Macoris/@19.2927018,-70.2585978,15z/data=!4m14!1m7!3m6!1s0x8eae2d75a9b5169f:0xf94721e3c733bb3b!2sFarmacia+Medicar+GBC+-+San+Francisco+de+Macoris!8m2!3d19.2927018!4d-70.2585978!16s%2Fg%2F11j7vr9fyj!3m5!1s0x8eae2d75a9b5169f:0xf94721e3c733bb3b!8m2!3d19.2927018!4d-70.2585978!16s%2Fg%2F11j7vr9fyj">
@@ -162,7 +114,7 @@
             </a>
         </div>
     </div>
-        <div class="footer-section3">
+        <div class="footer-part3">
             &copy; 2023 | Rose Chamber Of Commerce | Rose Berline Merilus | WDD 230 Project | 
             <b>Last Modification: </b> <span id="date"></span>
             
@@ -173,6 +125,6 @@
 
 
    
-    <script src="script/windchill.js"></script>
+    <script src="script/directory.js"></script>
 </body>
 </html>
