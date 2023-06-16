@@ -161,6 +161,7 @@ main {
 
 p{
     font-size: 15px;
+    color: white;
 }
 
 main {
@@ -189,6 +190,7 @@ main > div > h2, #spotlight1 h2, #spotlight2 h2, #spotlight3 h2 {
     position: relative;
     color: white;
 }
+
 /* HOME - HERO */
 .home-hero-h2 {
     
@@ -548,8 +550,8 @@ color: white;
 .directory {
 	margin: 0 auto;
 	padding: 0.5rem;
-	max-width: 700px;
-	background-color: #fff;
+	
+	
 	font-family: Roboto, Helvetica, sans-serif;
 }
 
@@ -569,7 +571,7 @@ color: white;
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #eee;
+	;
 }
 
 .gridDirectory {
