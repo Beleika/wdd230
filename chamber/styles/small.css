@@ -544,87 +544,88 @@ color: white;
 
 
 /*directory*/
-
-
-
-.directory {
-	margin: 0 auto;
+.directory{
+    display: block;
+    margin: 0 auto;
 	padding: 0.5rem;
+	max-width: 800px;
+ 
 	
-	
-	font-family: Roboto, Helvetica, sans-serif;
 }
 
-.menudirectory {
+.menuDirectory {
 	margin: 1rem auto;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color:   rgb(82, 9, 9);
 	text-align: center;
 }
 
-.menudirectory button {
+.menuDirectory button {
 	padding: 1rem;
 	font-weight: 700;
+    background-color:   rgb(115, 81, 81);
+    color: white;
 }
 
 section {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0.5rem;
-	;
+    margin: 0,5rem;
+	background-color:   rgb(137, 119, 119) ;
 }
 
-.gridDirectory {
+.grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5px;
 	align-items: center;
 }
 
-.gridDirectory section {
+.grid section {
 	text-align: center;
 }
 
-.gridDirectory img {
+.grid img {
 	border: 1px solid #fff;
 	box-shadow: 0 0 10px #333;
 }
 
-.gridDirectory section > * {
+.grid section > * {
 	margin: 0.1rem;
 }
 
-.gridDirectory h3 {
+.grid h3 {
 	font-family: "Caveat", cursive;
 }
 
-.listDirectory {
+.list {
 	display: flex;
 	flex-direction: column;
 }
 
-.listDirectory section {
+.list section {
 	display: grid;
 	grid-template-columns: 2fr 1fr 1fr;
 	margin: 0;
 	padding: 0.25rem;
 }
 
-.listDirectory section > * {
+.list section > * {
 	margin: 0 1rem;
 }
 
-.listDirectory section img {
+.list section img {
 	display: none; /* smaller viewports only */
 }
 
-.listDirectory section h3 {
+.list section h3 {
 	font-size: 1rem;
 	font-family: Roboto, Helvetica, sans-serif;
 }
 
-.listDirectory section:nth-child(even) {
-	background-color: #bed;
+.list section:nth-child(even) {
+	background-color: rgb(95, 6, 6);
 }
 
 section h3 {
@@ -647,4 +648,7 @@ img {
 	height: 75px;
 	max-width: 100%; /* Images are jerks - Seattle*/
 }
+
+
+
 

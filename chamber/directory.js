@@ -1,4 +1,6 @@
-const requestURL = 'https://brotherblazzard.github.io/canvas-content/latter-day-prophets.json';
+const requestURL = 'https://beleika.github.io/wdd230/chamber/data.json';
+
+
 
 fetch(requestURL)
   .then(function(response){
@@ -8,26 +10,31 @@ fetch(requestURL)
   const compagnie = jsonObject['compagnie'];
   
   for( let i =0; i < compagnie.length; i++){
-  
-    let card = document.createElement('section');
+
+    let image = document.createElement('img');
+    let grid = document.createElement('section');
     let h2 = document.createElement('h2');
     let Adrress = document.createElement('p');
     let Tel = document.createElement('p');
-    let image = document.createElement('img');
+    
+    
   
     var altImg = compagnie[i].name + ' ' + compagnie[i].lastname;
   
-    h2.textContent = compagnie[i].address + ' ' + compagnie[i].address;
-    Adrress.textContent = 'Date of Birth: '+ compagnie[i].Adress;
+    h2.textContent = compagnie[i].name + ' ' + compagnie[i].lastname;
+    Adrress.textContent = 'Adrress: '+ compagnie[i].Adrress;
     Tel.textContent = 'Tel: ' + compagnie[i].Tel;
     image.setAttribute('src', compagnie[i].imageurl);
+   
+    
   
-    card.appendChild(h2);
-    card.appendChild(Adrress);
-    card.appendChild(Tel);
-    card.appendChild(image, image.alt = altImg);
+   
+    grid.appendChild(Adrress);  
+    grid.appendChild(Tel);
+    grid.appendChild(image, image.alt = altImg);
+   
   
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('article.grid').appendChild(grid);
   
   }
   
@@ -36,21 +43,21 @@ fetch(requestURL)
 
 
 
-const gridbutton = document.querySelector("#gridDirectory");
-const listbutton = document.querySelector("#listDirectory");
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 gridbutton.addEventListener("click", () => {
 	// example using arrow function
-	display.classList.add("gridDirectory");
-	display.classList.remove("listDirectory");
+	display.classList.add("grid");
+	display.classList.remove("list");
 });
 
 listbutton.addEventListener("click", showList); // example using defined function
 
 function showList() {
-	display.classList.add("listDirectory");
-	display.classList.remove("gridDirectory");
+	display.classList.add("list");
+	display.classList.remove("grid");
 }

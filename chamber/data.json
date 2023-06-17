@@ -1,59 +1,67 @@
  
  {
   "compagnie":[
-      {
+      {  
+        
         "imageurl": "https://www.flashtech.com/wp-content/themes/theme1591/images/logo.png",
         "Adrress": "Washington",
-        "Tel": "201-656-3800",
-        "url": "https://www.flashtech.com/"
-      },
-      {
-        "imageurl": "https://www.kingston.com/Themes/KingstonRWD/images/logos/kingston-logo-blkText.svg",
-        "Adrress": "17600 Newhope Street Fountain Valley, CA 92708 USA",
-        "Tel": "+1 (714) 435-2600",
-        "url": "https://www.kingston.com/en"
-      },
-      {
-        "imageurl": "https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/brand-logos/header-main-logo.svg",
-        "Adrress": "5601 Great Oaks Parkway San Jose, CA95119",
-        "Tel": "+1-408-573-5043",
-        "url": "https://www.westerndigital.com/brand/wd?ef_id=EAIaIQobChMIjv3VwrfI_wIVn-3jBx346gskEAAYASAAEgJsRvD_BwE:G:s&s_kwcid=AL!15012!3!555214252447!e!!g!!western%20digital!15038715266!130459068162&utm_medium=pdsrc2&utm_source=gads&utm_campaign=GOOG-WD-NA-US-Brand-en-Search&utm_content=&utm_term=western%20digital"
-      },
-      {
-        "imageurl": "https://www.netsecuritystore.com/images/netsecuritystore-logo-new.png",
-        "Adrress": "1225 Crescent Green, St. 115Cary, NC 27518",
-        "Tel": "833-335-0426",
-        "url": "https://www.netsecuritystore.com/?utm_term=symantec%20software&utm_campaign=Symantec+*176&utm_source=adwords&utm_medium=ppc&hsa_tgt=kwd-528259624971&hsa_grp=57792597777&hsa_src=g&hsa_net=adwords&hsa_mt=p&hsa_ver=3&hsa_ad=296790088230&hsa_acc=9041622380&hsa_kw=symantec%20software&hsa_cam=153596821&gclid=EAIaIQobChMIzvfPuLnI_wIVUhxlCh0FWgFxEAAYAiAAEgKkDfD_BwE"
+        "Tel": "201-656-3800"
+       
       },
       { 
+        
+        "imageurl": "https://www.kingston.com/Themes/KingstonRWD/images/logos/kingston-logo-blkText.svg",
+        "Adrress": "17600 Newhope Street Fountain Valley, CA 92708 USA",
+        "Tel": "+1 (714) 435-2600"
+       
+      },
+      {
+        
+        "imageurl": "https://www.westerndigital.com/content/dam/store/en-us/assets/home-page/brand-logos/header-main-logo.svg",
+        "Adrress": "5601 Great Oaks Parkway San Jose, CA95119",
+        "Tel": "+1-408-573-5043"
+       
+      },
+      {
+       
+        "imageurl": "https://www.netsecuritystore.com/images/netsecuritystore-logo-new.png",
+        "Adrress": "1225 Crescent Green, St. 115Cary, NC 27518",
+        "Tel": "833-335-0426"
+      },
+      { 
+       
         "imageurl": "https://nagelusausa.wpengine.com/wp-content/uploads/2015/06/Nagel-Logo.png",
         "Adrress": "288 Dino Drive Ann Arbor, Michigan 48103",
-        "Tel": "(734) 426-5650",
-        "url": "https://www.nagelusa.com/"
+        "Tel": "(734) 426-5650"
       },
       {
+
+        
         "imageurl": "https://sparksgroupinc.com/wp-content/themes/CherryFramework/images/sparks-logo.svg",
         "Adrress": "77 Upper Rock Circle, Suite 101 Rockville, MD 20850",
-        "Tel": "(301) 279-2300",
-        "url": "https://sparksgroupinc.com/"
+        "Tel": "(301) 279-2300"
       },
-      {   
+      {  
+        
+       
         "imageurl": "https://pro-ally.com/wp-content/uploads/2022/11/proally-logo-logo-full-color-rgb.svg",
         "Adrress": "California",
-        "Tel": "+16234736277",
-        "url": "https://pro-ally.com/"
+        "Tel": "+16234736277"
       },
       {
+
+
+      
         "imageurl": "https://meridianchamber.org/wp-content/uploads/2021/02/Meridian_Chamber_logo_horizontal.svg",
         "Adrress": "215 E Franklin Rd. Meridian, ID 83642",
-        "Tel": "(208) 888-2817",
-        "url": "https://meridianchamber.org/"
+        "Tel": "(208) 888-2817"
       },
-      {
+      {  
+
+      
         "imageurl": "https://www.hydro.com/dist/assets/Hydro_Logo_White.svg?v=mCyjgZFuu3rYUxDVFsbAmZUngZoGhzuB3a5akiy7xpI",
         "Adrress": "Drammensveien 264, NO-0283 Oslo",
-        "Tel": "+47 22 53 81 00 ",
-        "url": "https://www.hydro.com/"
+        "Tel": "+47 22 53 81 00 "
       }
      
      
