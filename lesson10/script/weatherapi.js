@@ -19,12 +19,6 @@ async function apiFetch() {
         console.log(error);
     }
   }
-  
-  apiFetch();
-
-
-
-
 
 function  displayResults(weatherData) {
   currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
@@ -36,5 +30,15 @@ function  displayResults(weatherData) {
   weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
   }
+
+
+  
+  apiFetch();
+
+
+
+
+
+
 
   
