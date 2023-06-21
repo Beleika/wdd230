@@ -22,12 +22,12 @@ fetch(requestURL)
   
     var altImg = compagnie[i].Name ;
   
-    Name.textContent = 'Name: '+ compagnie[i].Name;
+    Name.textContent = compagnie[i].Name;
     Adrress.textContent = 'Adrress: '+ compagnie[i].Adrress;
     Tel.textContent = 'Tel: ' + compagnie[i].Tel;
     image.setAttribute('src', compagnie[i].imageurl);
-    webSite.textContent = `${compagnie.webSite}`;
-    //webSite.setAttribute('href', `${compagnie.webSite}`);
+    webSite.textContent = `${compagnie[i].webSite}`;
+    webSite.setAttribute('href', `${compagnie[i].webSite}`);
   
     webSite.href = 'webSite';
    
