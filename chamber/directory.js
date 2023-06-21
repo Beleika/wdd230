@@ -1,4 +1,4 @@
-const requestURL = 'https://beleika.github.io/wdd230/chamber/data.json';
+const requestURL = `https://beleika.github.io/wdd230/chamber/data.json`;
 
 
 
@@ -13,25 +13,31 @@ fetch(requestURL)
 
     let image = document.createElement('img');
     let grid = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let Name = document.createElement('h2');
     let Adrress = document.createElement('p');
     let Tel = document.createElement('p');
+    let webSite = document.createElement('a');
     
     
   
-    var altImg = compagnie[i].name + ' ' + compagnie[i].lastname;
+    var altImg = compagnie[i].Name ;
   
-    h2.textContent = compagnie[i].name + ' ' + compagnie[i].lastname;
+    Name.textContent = 'Name: '+ compagnie[i].Name;
     Adrress.textContent = 'Adrress: '+ compagnie[i].Adrress;
     Tel.textContent = 'Tel: ' + compagnie[i].Tel;
     image.setAttribute('src', compagnie[i].imageurl);
+    webSite.textContent = `${compagnie.webSite}`;
+    //webSite.setAttribute('href', `${compagnie.webSite}`);
+  
+    webSite.href = 'webSite';
    
     
   
-   
+    grid.appendChild(Name); 
     grid.appendChild(Adrress);  
     grid.appendChild(Tel);
     grid.appendChild(image, image.alt = altImg);
+    grid.appendChild(webSite, webSite.href); 
    
   
     document.querySelector('article.grid').appendChild(grid);
