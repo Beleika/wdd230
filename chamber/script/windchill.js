@@ -2,6 +2,8 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
+let temperature; // for windchill calculation
+let windSpeed; //  for windchill calculation
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Maryland&units=imperial&appid=325eb4a65c9611b76c462dc2a8be0928';
 
@@ -38,11 +40,17 @@ apiFetch();
 
 
 // GET TEMPERATURE AND WINDSPEED ELEMENTS
-const temperatureC = parseFloat(document.querySelector("#temperature").textContent);
+const temperatureC = parseFloat(document.querySelector("#current-temp").textContent);
 const windSpeedKmh = parseFloat(document.querySelector("#windSpeed").textContent);
 
 // If temperature in °C is below 10 and Wind speed in Km/h is above 4.8, run the code...
 if (temperatureC <= 10 && windSpeedKmh > 4.8) {
+   // windChill = 
+   // 13.12 +
+  //0.6215 * temperature -
+  // 11.37 * Math.pow(windSpeed, 0.16) + 
+ //0.3965 * temperature * Math.pow(windSpeed, 0.16);
+//document.querySelector("#windchill").innerHTML = `${windchill.toFixed(2) }  °C` ;
     const temperatureF = celsiusToFahrenheit(temperatureC);
     const windSpeedMph = kmhToMph(windSpeedKmh);
 
