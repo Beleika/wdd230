@@ -1,3 +1,5 @@
+/* Index Page */
+
 body {
     text-align: center;
     background-color:  rgb(115, 81, 81);
@@ -384,10 +386,13 @@ footer {
 .footer-part1 {
     font-size: 1rem;
 }
-.footer-part2 {
+.footer-section1 {
+    font-size: 1rem;
+}
+.footer-section2 {
     margin-bottom: 1rem;
 }
-.footer-part3 {
+.footer-section3 {
     border-top: 1px solid black;
     align-items: center;
     justify-content: center;
@@ -408,6 +413,8 @@ footer {
 .footer-name {
     font-weight: bold;
 }
+
+
 
 /* DISCOVER PAGE */
 .discover {
@@ -563,7 +570,7 @@ color: white;
 
 .menuDirectory button {
 	padding: 1rem;
-	font-weight: 850;
+	font-weight: 85/0;
     background-color:   rgb(115, 81, 81);
     color: white;
 }

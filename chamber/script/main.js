@@ -130,4 +130,22 @@ else {
     });
 }
 
+/* DISCOVER - LAST VISIT */
+let lastVisit = localStorage.getItem("lastVisit");
+const lastVisitElement = document.querySelector("#lastVisit p");
+
+if (lastVisitElement != null) {
+    if (lastVisit) {
+        let currentDate = new Date();
+        let previousDate = new Date(lastVisit);
+        let timeDifference = currentDate.getTime() - previousDate.getTime();
+    
+        let differenceInDays = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    
+        lastVisitElement.innerText = `${differenceInDays} `;
+    }
+    localStorage.setItem("lastVisit", new Date());
+}
+
+
 
