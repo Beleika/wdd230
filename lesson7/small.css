@@ -1,49 +1,30 @@
+
 body{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: #EEA47F;
+    background-color: #90e0ef;
 }
-
-
-h1, h2 {
-    margin: 0;
+h1, h2 {text-align: center;}
+header, footer {
+    background-color: #03045e;
+    padding: 3rem;
     color: white;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px 0;
-    
-}
-header{
-    background-color: #00539C;
- 
 }
 main {
-    
-    padding: 0 1rem;
-    margin: 15px auto;
-}
-
-
-.loading {
     margin: 0 auto;
     max-width: 18.75rem;
     width: 300px;
     display: flex;
+
     flex-direction: column;
 }
 
-picture {
-    padding: 10px;
-  
-    
-    
+main img {
+    margin: .5rem;
+    filter: blur(0em);
+    transition: filter .5s;
 }
-
-
+main img[data-src] {filter: blur(.2rem);}
 
 footer{
     text-align: center;
-    color: wheat;
-    background-color:  #00539C;
+
 }
