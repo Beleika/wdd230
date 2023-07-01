@@ -29,4 +29,18 @@ footer {
     color: white
    
 }
+#weatherStatusImg{
+    
+    width: 50px;
+}
 
+    
+@media screen and (min-width: 64rem) {
+    #weatherStatusImg {width :200px; }
+}
+
+
+
+@media screen and (min-width: 35rem) {
+    #weatherStatusImg {width:100px; }
+    }
