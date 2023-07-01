@@ -76,7 +76,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.textContent = fulldate;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-datemessage.innerHTML = `Today is <strong>${fulldate}</strong>. What are you going to do?`;
+
 
 
 /* JOIN US BANNER */
