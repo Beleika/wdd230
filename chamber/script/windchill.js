@@ -1,8 +1,8 @@
 //Get the url to weather API
-const url =
-  "https://api.openweathermap.org/data/2.5/weather?q=Maryland&units=imperial&appid=325eb4a65c9611b76c462dc2a8be0928";
-const lat = 31.9686;
-const lon = -99.9018;
+const url =`https://api.openweathermap.org/data/2.5/weather?q=Maryland&units=imperial&appid=325eb4a65c9611b76c462dc2a8be0928`;
+
+const lat = 39.045753;
+const lon = -76.641273;
 const apiKey = "325eb4a65c9611b76c462dc2a8be0928";
 const updatedUrl = url
   .replace("{lat}", lat)
