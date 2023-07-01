@@ -12,7 +12,7 @@ X.onclick = toggleMenu;
 /* TODAY'S DATE IN HEADER */
 // select the DOM elements to manipulate (we will output to these)
 
-const datefield = document.querySelector("time");
+const datefield = document.querySelector("#time");
 
 // for european/family history format with day first.
 const datefieldUK = document.querySelector("aside");
