@@ -853,15 +853,15 @@ text-align: center;
 
 .menuDirectory button {
 padding: 1rem;
-font-weight: 85/0;
-  background-color:   rgb(115, 81, 81);
-  color: white;
+font-weight: 700;
+background-color:   rgb(115, 81, 81);
+color: white;
 }
 
 section {
 border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0.5rem;
-  margin: 0,5rem;
+margin: .2rem;
 background-color:   rgb(137, 119, 119) ;
 }
 

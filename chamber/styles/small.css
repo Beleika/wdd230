@@ -734,17 +734,11 @@ background-color:   rgb(82, 9, 9);
 text-align: center;
 }
 
-.menuDirectory button {
-padding: 1rem;
-font-weight: 85/0;
-  background-color:   rgb(115, 81, 81);
-  color: white;
-}
 
 section {
 border: 1px solid rgba(0, 0, 0, 0.1);
 padding: 0.5rem;
-  margin: 0,5rem;
+margin: 0.5rem;
 background-color:   rgb(137, 119, 119) ;
 }
 
