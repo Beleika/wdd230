@@ -150,7 +150,28 @@ time {
 /* MAIN */
 
 
-
+  
+ /* #totalVisitorsContainer {
+    display: none;
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    bottom: 50%;
+    z-index: 2;
+    padding: 20px 15px;
+    background-color: #00445a;
+    color: white;
+    border-radius: 12px;
+    border: solid 1px #000000;
+    font-weight: bold;
+    border: none;
+    box-shadow: 1px 1px 15px #000000;
+    overflow: hidden;
+    text-align: center;
+  }
+  #totalVisitorsContainer.active ~ #viewsButton {
+    display: block;
+  }*/
   main button {
     padding: 10px;
     background: linear-gradient(to right, rgb(161, 128, 128) ,  rgb(82, 9, 9), rgb(161, 128, 128));
@@ -174,7 +195,9 @@ time {
     letter-spacing: 0.6px;
     color: white;
   }
-
+ /* #moreInfoLink{
+    color: #000000;
+  }*/
   .mainIndex {
    
     grid-column-gap: 4px;
@@ -221,7 +244,63 @@ time {
     color: white;
   }
   
- 
+ /* #chart-stadistics {
+    font-size: 26px;
+    width: 95%;
+    border-radius: 12px;
+    border: solid #00445a25;
+    box-shadow: 3px 3px 15px #034c64;
+  }
+  
+  #chart-stadistics h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  #chart-container {
+    margin: 0 auto;
+    margin-top: 50px;
+    list-style: none;
+  }
+  #guildBtn.active + #chart-container #myChart2 {
+    display: none;
+    max-width: 100%;
+  }
+  
+  .chart {
+    margin: 0;
+    font-size: 18px;
+    box-shadow: 1px 1px 5px #000000;
+    border: none;
+    -webkit-text-stroke: #dbdbdb;
+    -webkit-text-fill-color: #dbdbdb;
+  }
+  
+  .chart:nth-child(1) {
+    margin-bottom: 7px;
+  }
+  
+  .chart:hover {
+    background-color: #ce7420;
+    color: #e6e4e4;
+    border: none;
+  }
+    button.active {
+    background-color:  rgb(82, 9, 9);
+    border: none;
+    letter-spacing: 0.6px;
+  }
+  
+ /* canvas {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    max-height: 500px;
+  }
+  .classTitle h4 {
+    margin-top: 10px;
+
+  }*/
   .classContent {
     padding: 0 10px;
     align-items: center;
@@ -245,7 +324,21 @@ time {
     transition: all 0.5s ease-in-out;
   
   }
-
+ /* .discoverPicture:hover img {
+    opacity: 0.1;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .discoverPicture:hover .gridAreatitle {
+    opacity: 1;
+  }
+  .discoverPicture:hover img {
+    opacity: 0.1;
+  }
+  
+  .discoverPicture:hover img:hover {
+    opacity: 0.1;
+  }*/
   
   #hero-img {
     margin-top: -110px;
@@ -279,7 +372,7 @@ time {
   }
   
   #hero .classContent button,
-   .classContent button {
+  /*.discoverPicture*/ .classContent button {
     position: absolute;
     top: 90%;
     left: 75%;
@@ -393,7 +486,31 @@ time {
   .spotlight3 {
     width: 100%;
   }
+  /* Main end*/
   
+  /* Main discover*/
+  
+  /*.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 0 0 20px #e6e4e4;
+    -webkit-text-stroke: 0.7px #000000;
+    -webkit-text-fill-color: #ce7420;
+    width: 100%;
+  }
+  #mainTitle h1 {
+    font-size: 46px;
+    color: #00445a;
+  }*/
+
+
+
+
+
+  /* Phone */
 
  
 .mainIndex {
@@ -777,6 +894,50 @@ display: flex;
 flex-direction: column;
 }
 
+.list section {
+display: grid;
+grid-template-columns: 2fr 1fr 1fr;
+margin: 0;
+padding: 0.25rem;
+}
+
+.list section > * {
+margin: 0 1rem;
+}
+
+.list section img {
+display: none; /* smaller viewports only */
+}
+
+.list section h3 {
+font-size: 1rem;
+font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section:nth-child(even) {
+background-color: rgb(95, 6, 6);
+}
+
+section h3 {
+font-size: 1.5rem;
+}
+
+section p {
+font-weight: 600;
+font-size: smaller;
+}
+
+section a {
+font-family: "Roboto", Arial, sans-serif;
+font-size: 0.85rem;
+color: white;
+letter-spacing: 1.1pt;
+}
+
+img {
+height: 75px;
+max-width: 100%; /* Images are jerks - Seattle*/
+}
 
 /* Join Us Html */
 
